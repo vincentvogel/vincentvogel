@@ -2,11 +2,112 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<title>Uebung1</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<title>IBS</title>
 </head>
 <body>
-<header>
-	<h1>#Rechtskonformer inhalt</h1>
-</header>
+	<div class="navbar-fixed-top" id="navi">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-6">
+				<ul class="nav nav-pills">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="Impressum.html">Impressum</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2" id="suche">
+				<form action="http://de.wikipedia.org/wiki" method="post"
+					target="_blank" name="frmWiki">
+					<table>
+						<tbody>
+							<tr>
+								<td><input maxlength="255" size="25" name="xsearch"
+									value="Wikipedia suche"
+									onblur="if(this.value  == '') { this.value='Wikipedia suche'}"
+									onfocus="if (true) { this.value=''}"> <input value="de"
+									name="hl" type="hidden"></td>
+								<td><input
+									onclick="window.document.frmWiki.action = 'http://de.wikipedia.org/wiki/' + document.frmWiki.xsearch.value;"
+									value="Suche" name="btnG" type="submit"></td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="jumbotron">
+
+			<h1>IBS Abgabe</h1>
+			<p>
+				Dozent: <a href="http://kqc.cloudcontrolled.com/">Prof. Klaus
+					Quibeldey-Cirkel</a><br>
+			</p>
+			<p>
+				Im laufe der Veranstalltung Veranstaltung ist war die Aufgabe eine
+				Internetseite, indem wir Html, CSS und Twitter bootsstrap nutzen,
+				erstellen. Diese soll die <a href="http://www.w3.org/TR/WCAG20/">WCAG
+					2.0</a> AAA Bewertung erhalten und ein Webformular f&uumlr eine <a
+					href="http://de.wikipedia.org/wiki/Wikipedia:Hauptseite">Wikipedia</a>
+				suche.
+			</p>
+			<br> <br> <br>
+		</div>
+		<div class="links">
+			<br> <br> <br>
+			<h2>Meine Links</h2>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-4" id="links">
+					<H3>Mein Github pullrequest</H3>
+					<p>
+						Dies sind die Link auf mein <a
+							href="https://github.com/vincentvogel">Github-Profil</a> und
+						meinen <a href="https://github.com/vincentvogel">Request</a>
+					</p>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-4" id="links">
+					<H3>Mein gepuller Github request</H3>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-4" id="links">
+					<H3>
+						<a href="http://www.codecademy.com/">Codecademy</a> Badges
+					</H3>
+					<p>
+						Dies ist der link auf mein <a
+							href="http://www.codecademy.com/Vincent44">Codecademy-Profil.</a>
+					</p>
+					<p>
+						Dies ist der link auf mein Codecademy <a
+							href="http://www.codecademy.com/users/Vincent44/achievements">Badges.</a>
+					</p>
+
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-4" id="links">
+					<H3>
+						<a href="http://www.w3.org/TR/WCAG20/">WCAG 2.0</a> AAA
+					</H3>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<br> <br> <br> <br> <br> <br>
+		</div>
+	</div>
+	</div>
 </body>
 </html>

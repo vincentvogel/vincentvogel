@@ -1,0 +1,56 @@
+.jumbotron{
+	background-image:url("bilder/6b10b16b165751f4cafb053469dbbd5c.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.container .jumbotron  h1{
+	color:#fff;
+}
+.container .jumbotron  p{
+	color:#fff;
+}
+.container .jumbotron  a:link{
+	color:#fff;	
+}
+.container .jumbotron  a:hover{
+	color:#f00;	
+}
+.container .jumbotron  a:visited{
+	color:#f00;	
+}
+
+.container{
+	
+	margin-top:50px;
+
+	
+}
+#impressum{
+	background-color: #cccccc;;
+	border-radius:25px;	
+}
+.links{
+	margin-top:-30px;
+	pedding-top: 150px;
+	background-color:#ccc;
+	margin-bottom: 30px;
+}
+.links h2{
+	text-align:center;
+}
+.links h3{
+	text-align:center;
+}
+.links p{
+	text-align:center;
+}
+#links {
+	margin-bottom: 25px;
+	border-radius:25px;	
+} 
+#navi {
+	background-color: #cccccc;
+}
+#suche{
+	margin-top:5px;
+}
