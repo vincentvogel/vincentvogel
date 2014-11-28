@@ -1,4 +1,5 @@
 .jumbotron{
+	margin-top:10px;
 	background-image:url("bilder/6b10b16b165751f4cafb053469dbbd5c.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -26,17 +27,18 @@
 	
 }
 #impressum{
-	padding-top:40px;
+	padding-top:50px;
 	padding-bottom:40px;
 	background-color: #cccccc;;
 	border-radius:25px;	
 }
 
 .links{
-	margin-top:-30px;
-	pedding-top: 150px;
+	margin-top: 10px;
+	pedding-top: 50px;
 	background-color:#ccc;
 	margin-bottom: 30px;
+	border-radius:25px;
 }
 .links h2{
 	text-align:center;
@@ -54,7 +56,13 @@
 #navi {
 	background-color: #cccccc;
 }
+#navi .container {
+	margin-top:5px;	
+}
 #suche{
 	margin-top:8px;
 	
+}
+#form{
+	pedding-left:5px;  !important;
 }

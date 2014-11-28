@@ -11,27 +11,31 @@
 </head>
 <body>
 <body>
+
+
 	<div class="navbar-fixed-top" id="navi">
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-5">
-				<ul class="nav nav-pills">
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="Impressum.html">Impressum</a></li>
-				</ul>
-			</div>
-			<div class="col-md-4" id="suche">
-				<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-					<label> Wikipedia suche: <input type="text" name="search"
-						value="Suchwort"
-						onblur="if(this.value  == '') { this.value='Suchwort'}"
-						onfocus="if (true) { this.value=''}" /></label>  <input type="submit"
-						name="go" value="Artikel" /> <input type="submit" name="fulltext"
-						value="Volltext" />
-				</form>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<ul class="nav nav-pills">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="Impressum.html">Impressum</a></li>
+					</ul>
+				</div>
+				<div class="col-md-5" id="suche">
+					<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+						<label>Wikipedia suche: <input type="text"
+							name="search" value="Suchwort"
+							onblur="if(this.value  == '') { this.value='Suchwort'}"
+							onfocus="if (true) { this.value=''}" /></label> <input type="submit"
+							name="go" value="Artikel" /> <input type="submit"
+							name="fulltext" value="Volltext" />
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
+
 	<div class="container" id="impressum">
 		<h1 style="text-align: center;">Impressum</h1>
 		<div class="row">

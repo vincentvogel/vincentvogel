@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="style.css">
 
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
-<!-- Optional theme -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 <title>IBS</title>
 </head>
 <body>
 	<div class="navbar-fixed-top" id="navi">
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-5">
-				<ul class="nav nav-pills">
-					<li  class="active"><a href="index.html">Home</a></li>
-					<li><a href="Impressum.html">Impressum</a></li>
-				</ul>
-			</div>
-			<div class="col-md-4" id="suche">
-				<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-					<label> Wikipedia suche: <input type="text" name="search"
-						value="Suchwort"
-						onblur="if(this.value  == '') { this.value='Suchwort'}"
-						onfocus="if (true) { this.value=''}" /></label>  <input type="submit"
-						name="go" value="Artikel" /> <input type="submit" name="fulltext"
-						value="Volltext" />
-				</form>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<ul class="nav nav-pills">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="Impressum.html">Impressum</a></li>
+					</ul>
+				</div>
+				<div class="col-md-5" id="suche">
+					<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+						<label>Wikipedia suche: <input type="text"
+							name="search" value="Suchwort"
+							onblur="if(this.value  == '') { this.value='Suchwort'}"
+							onfocus="if (true) { this.value=''}" /></label> <input type="submit"
+							name="go" value="Artikel" /> <input type="submit"
+							name="fulltext" value="Volltext" />
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -63,13 +62,17 @@
 					<p>
 						Dies sind die Link auf mein <a
 							href="https://github.com/vincentvogel">Github-Profil</a> und
-						meinen <a href="https://github.com/vincentvogel/vincentvogel/pull/1">Request</a>
+						meinen <a
+							href="https://github.com/vincentvogel/vincentvogel/pull/1">Request</a>
 					</p>
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-4" id="links">
 					<H3>Mein gepuller Github request</H3>
-					<p>Die adresse von meinem durchgef&uuml;rtem <a href="https://github.com/pascalbrueckner/pascalbrueckner/pull/1">pullrequest</a></p>
+					<p>
+						Die adresse von meinem durchgef&uuml;rtem <a
+							href="https://github.com/pascalbrueckner/pascalbrueckner/pull/1">pullrequest</a>
+					</p>
 				</div>
 				<div class="col-md-1"></div>
 			</div>
@@ -94,6 +97,7 @@
 					<H3>
 						<a href="http://www.w3.org/TR/WCAG20/">WCAG 2.0</a> AAA
 					</H3>
+					<p style="text-align:center;"><a href="http://wave.webaim.org/report#/https://vincentvogel.cloudcontrolled.com/index.html"><img src="http://www.w3.org/WAI/wcag2AAA.gif" alt="AAA plackete"/></a>
 				</div>
 				<div class="col-md-1"></div>
 			</div>
