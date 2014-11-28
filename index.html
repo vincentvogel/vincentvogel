@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <link rel="stylesheet" href="style.css">
 
 <link rel="stylesheet"
@@ -16,34 +16,26 @@
 	<div class="navbar-fixed-top" id="navi">
 		<div class="row">
 			<div class="col-md-2"></div>
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<ul class="nav nav-pills">
-					<li class="active"><a href="index.html">Home</a></li>
+					<li  class="active"><a href="index.html">Home</a></li>
 					<li><a href="Impressum.html">Impressum</a></li>
 				</ul>
 			</div>
-			<div class="col-md-2" id="suche">
-				<form action="http://de.wikipedia.org/wiki" method="post"
-					target="_blank" name="frmWiki">
-					<table>
-						<tbody>
-							<tr>
-								<td><input maxlength="255" size="25" name="xsearch"
-									value="Wikipedia suche"
-									onblur="if(this.value  == '') { this.value='Wikipedia suche'}"
-									onfocus="if (true) { this.value=''}"> <input value="de"
-									name="hl" type="hidden"></td>
-								<td><input
-									onclick="window.document.frmWiki.action = 'http://de.wikipedia.org/wiki/' + document.frmWiki.xsearch.value;"
-									value="Suche" name="btnG" type="submit"></td>
-							</tr>
-						</tbody>
-					</table>
+			<div class="col-md-4" id="suche">
+				<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+					<label>Wikipedia Suchen</label> <input type="text" name="search"
+						value="Suchwort"
+						onblur="if(this.value  == '') { this.value='Suchwort'}"
+						onfocus="if (true) { this.value=''}" /> <input type="submit"
+						name="go" value="Artikel" /> <input type="submit" name="fulltext"
+						value="Volltext" />
 				</form>
 			</div>
-			<div class="col-md-2"></div>
+
 		</div>
 	</div>
+
 	<div class="container">
 		<div class="jumbotron">
 
@@ -56,7 +48,7 @@
 				Im laufe der Veranstalltung Veranstaltung ist war die Aufgabe eine
 				Internetseite, indem wir Html, CSS und Twitter bootsstrap nutzen,
 				erstellen. Diese soll die <a href="http://www.w3.org/TR/WCAG20/">WCAG
-					2.0</a> AAA Bewertung erhalten und ein Webformular f&uumlr eine <a
+					2.0</a> AAA Bewertung erhalten und ein Webformular f&uuml;r eine <a
 					href="http://de.wikipedia.org/wiki/Wikipedia:Hauptseite">Wikipedia</a>
 				suche.
 			</p>
@@ -107,7 +99,6 @@
 			</div>
 			<br> <br> <br> <br> <br> <br>
 		</div>
-	</div>
 	</div>
 </body>
 </html>

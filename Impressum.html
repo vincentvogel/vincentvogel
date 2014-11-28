@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="style.css">
-
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
-<!-- Optional theme -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 <title>IBS</title>
@@ -17,74 +14,42 @@
 	<div class="navbar-fixed-top" id="navi">
 		<div class="row">
 			<div class="col-md-2"></div>
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<ul class="nav nav-pills">
 					<li><a href="index.html">Home</a></li>
 					<li class="active"><a href="Impressum.html">Impressum</a></li>
 				</ul>
 			</div>
-			<div class="col-md-2" id="suche">
-				<form action="http://de.wikipedia.org/wiki" method="post"
-					target="_blank" name="frmWiki">
-					<table>
-						<tbody>
-							<tr>
-								<td><input maxlength="255" size="25" name="xsearch"
-									value="Wikipedia suche"
-									onblur="if(this.value  == '') { this.value='Wikipedia suche'}"
-									onfocus="if (true) { this.value=''}"> <input value="de"
-									name="hl" type="hidden"></td>
-								<td><input
-									onclick="window.document.frmWiki.action = 'http://de.wikipedia.org/wiki/' + document.frmWiki.xsearch.value;"
-									value="Suche" name="btnG" type="submit"></td>
-							</tr>
-						</tbody>
-					</table>
+			<div class="col-md-4" id="suche">
+				<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+					<label>Wikipedia Suchen</label> <input type="text" name="search"
+						value="Suchwort"
+						onblur="if(this.value  == '') { this.value='Suchwort'}"
+						onfocus="if (true) { this.value=''}" /> <input type="submit"
+						name="go" value="Artikel" /> <input type="submit" name="fulltext"
+						value="Volltext" />
 				</form>
 			</div>
-			<div class="col-md-2"></div>
+
 		</div>
 	</div>
 	<div class="container" id="impressum">
 		<h1 style="text-align: center;">Impressum</h1>
-		<h2>Bildenachweise</h2>
-		<h3>Hintergrundbild auf der homeseite</h3>
-		<p>Burning Sky von Max Streichardt</p>
-		<p>
-			<a href="http://creativecommons.org/licenses/by/2.0/de/deed.de">Some
-				rights reserved</a> Quelle:<a href="http://piqs.de/">piqs</a>
-		</p>
+		<div class="row">
+			<div class="col-md-6" id="impressum">
+			<p>Vincent Vogel Paulusgarten 27 35457 Lollar Vincent.vogel&#64;mni.thm.de</p>
+			</div>
+			<div class="col-md-6" id="impressum">
+				
+				<h2>Bildenachweise</h2>
+				<h3>Hintergrundbild auf der homeseite</h3>
+				<p>Burning Sky von Max Streichardt</p>
+				<p>
+					<a href="http://creativecommons.org/licenses/by/2.0/de/deed.de">Some
+						rights reserved</a> Quelle:<a href="http://piqs.de/">piqs</a>
+				</p>
+			</div>
+		</div>
 	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<p>dsfdsf</p>
 </body>
 </html>
